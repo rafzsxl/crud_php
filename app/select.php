@@ -1,4 +1,6 @@
-<?php require_once '../includes/functions.php'; ?>
+<?php 
+require_once __DIR__ . '/../includes/functions.php';
+require_once __DIR__ .'/../login/verifica_user.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,12 +11,12 @@
 </head>
 
 <body>
-    <?php  include '../includes/header.php'; ?>
+    <?php include __DIR__ . '/../includes/header.php'; ?>
     <hr>
     <main>
         <?php relatorio($conexao); ?>
     </main>
-    <?php  include '../includes/footer.php'; ?>
+    <?php  include __DIR__ . '/../includes/footer.php'; ?>
 
 </body>
 

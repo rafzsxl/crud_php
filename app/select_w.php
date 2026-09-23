@@ -1,4 +1,6 @@
-<?php require_once '../includes/functions.php';?>
+<?php 
+require_once __DIR__ . '/../includes/functions.php';
+require_once __DIR__ . '/../login/verifica_user.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultar</title>
 </head>
-<?php include '../includes/header.php'; ?>
+<?php include __DIR__ . '/../includes/header.php'; ?>
 <hr>
 <body>
     <h1>Consulte um Aluno em especifico</h1>
@@ -23,5 +25,5 @@
     </main>
     <hr>
 </body>
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 </html>

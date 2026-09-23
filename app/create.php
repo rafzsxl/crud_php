@@ -1,4 +1,6 @@
-<?php require_once '../includes/functions.php';?>
+<?php 
+require_once __DIR__ . '/../includes/functions.php';
+require_once __DIR__ . '/../login/verifica_user.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,7 +10,7 @@
     <title>Cadastrar</title>
 </head>
 
-<?php include '../includes/header.php'; ?>
+<?php include __DIR__ . '/../includes/header.php'; ?>
 <hr>
 <body>
     <main>
@@ -40,6 +42,6 @@
     </main>
 </body>
 <hr>
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
 </html>

@@ -1,4 +1,6 @@
-<?php require_once '../includes/functions.php';?>
+<?php 
+require_once __DIR__ . '/../includes/functions.php';
+require_once __DIR__ . '/../login/verifica_user.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DELETE</title>
 </head>
-<?php include '../includes/header.php'; ?>
+<?php include __DIR__ . '/../includes/header.php'; ?>
 <body>
-    <h1>DELETE com formulário</h1>
+    <h1>Deletar Usuário</h1>
     <main>
         <form action="" method="post">
             <label for="id">ID:</label>
@@ -20,6 +22,6 @@
             apagar($conexao, $_POST['id']);
         } ?>
     </main>
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 </body>
 </html>

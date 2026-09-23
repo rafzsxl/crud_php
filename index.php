@@ -6,7 +6,7 @@
     <title>Sistema de Gestão de Alunos</title>
 </head>
 <body>
-    <?php include 'includes/header.php'; ?>
+    <?php include __DIR__ . '/includes/header.php'; ?>
     <hr>
     <main>
         <article>
@@ -16,6 +16,6 @@
         </article>
     </main>
     <hr>
-    <?php include 'includes/footer.php'; ?>    
+    <?php include __DIR__ . '/includes/footer.php'; ?>    
 </body>
 </html>
